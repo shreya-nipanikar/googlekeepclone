@@ -1,0 +1,42 @@
+.myinput {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.mytextarea {
+  border: none;
+  outline: none;
+}
+
+.mybutton {
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+  background: none;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 15px 15px 55px rgba(0, 0, 0, 0.2);
+}
+.mybutton:hover {
+  background: black;
+  color: white;
+}
+.iconss {
+  width: 24px;
+  height: 30px;
+}
+.card {
+  height: 100%;
+}
+@media (max-width: 560px) {
+  .myclass {
+    font-size: 14px;
+  }
+  .iconss {
+    width: 14px;
+    height: 14px;
+  }
+}
